@@ -1,0 +1,132 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display : flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 25px;
+  font-family: 'Roboto';
+  align-self: center;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container11 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container22 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.image2 {
+  height: 20px;
+  width: 20px;
+  padding-right: 8px;
+}
+
+.image3 {
+  height: 20px;
+  width: 20px;
+  padding-right: 8px;
+  padding-left: 10px;
+}
+
+.heading2 {
+  color: #1e293b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  align-self: center;
+}
+
+.heading4 {
+  color: #1e293b;
+  font-size: 14px;
+  font-family: 'Roboto';
+  align-self: center;
+  padding-top: 12px;
+  padding-left: 19px;
+}
+
+.heading3 {
+  color: #00d9f5;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  align-self: center;
+  padding-left: 19px;
+  padding-top: 14px;
+}
+
+.container1 {
+  height: 250px;
+  width: 320px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container111 {
+  height: 100px;
+  width: 100px;
+  border-radius: 80px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.paragraph {
+  color: #1e293b;
+  font-size: 13px;
+  font-family: 'Roboto';
+  align-self: center;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.button1 {
+  color: #1e293b;
+  background-color: #00d9f5;
+  border-width: 0px;
+  border-radius: 5px;
+  height: 27px;
+  width: 50px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
